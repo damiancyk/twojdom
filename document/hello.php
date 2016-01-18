@@ -1,0 +1,1 @@
+<body><h1>wybierz swój wymarzony dom! </h1><br><img src="image/dom.gif"> 	</body></html>

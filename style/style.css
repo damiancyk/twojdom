@@ -1,0 +1,230 @@
+body{
+	background: lightgray url("../image/backgroundWall.jpg") repeat right bottom;
+	font: small-caps 16px Verdana, sans-serif;
+	text-align: justify;
+	font-size: 12px;
+	color: black;
+	}
+	
+h1 {
+	font: bold small-caps 20px Verdana, sans-serif;
+	text-decoration: underline;
+}
+
+h2 {
+	font: bold small-caps 18px Verdana, sans-serif;
+}
+
+p {
+	font: small-caps 16px Verdana, sans-serif;
+	margin-left: 15px;
+}
+
+body {
+	font-family: Monospace;
+	background-color: #000000;
+	margin: 0px;
+	overflow: hidden;
+}
+
+#backWindow {
+	color: black;
+	position: absolute;
+	top: 56px;
+	left: 4px;
+	text-align: left;
+	z-index: 100;
+	display:block;
+	background: gray;
+	border-style: dotted;	
+	border-width: 1px;
+	border-color: black;
+
+}
+
+#backWindow input{
+	color: black;
+}
+
+#infoWindow {
+	color: black;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	width: 150px;
+	height: 150px;
+	text-align: left;
+	z-index: 100;
+	display:block;
+	background: gray;
+
+}
+
+#webGlWindow{
+	float:left;
+	margin: 5px;
+}
+		
+#okno{
+	width: 99%;
+	height: 99%;
+	margin: 3px auto ;
+	border-style: dashed;	
+	border-width: 1px;
+	border-color: black;
+	box-shadow: black 5px 5px 6px;
+	border-radius: 5px;
+}
+
+#menu {
+	background: url("../image/logo.gif") no-repeat right bottom;
+	width: 99%;
+	height: 40px;
+	margin: 1px auto 5px auto;
+	padding: 4px;
+}
+
+#menu ul, ul li {
+	display: block;
+}
+
+#menu ul {
+	border-bottom: 1px dotted black;
+	float: left;
+	width: 60%;
+	padding-left: 20px;
+}
+
+#menu ul li {
+	float: left;
+	margin-right: 10px;
+}
+
+#menu ul a:link, #menu ul a:visited {
+	text-decoration: none;
+	display: block;
+	background-color: #ccc;
+	padding: 5px 10px;
+	border: 1px dotted white;
+	position: relative;
+	top: 1px;
+	color:black;
+	box-shadow: black 5px 5px 6px;
+	border-radius: 5px;
+}
+
+#menu ul a:hover{
+	background-color: white;
+}
+
+#zawartosc{
+	max-width: 100%;
+	min-height:80%;
+	margin:1px;
+	padding:15px;
+	border-style: dotted;	
+	border-width: 1px;
+	border-color: black;
+}
+
+#wyszukiwarka{
+	width:100%;
+}
+
+#wyszukiwarka #panel{
+	border-style: dotted;	
+	border-width: 1px;
+	border-color: black;
+	width:100%;
+}
+
+#wyszukiwarka #panel input{
+	background: lightgray;
+}
+
+#wyszukiwarka #panel input.l{
+	background: gray;
+	color:black;
+	width: 100px;
+	height: 25px;
+}
+
+#wyszukiwarka #element{
+	
+	margin: 10px;
+	border-style: double;	
+	border-width: 2px;
+	border-color: lightgray;
+	width: 40%;
+}
+
+#wyszukiwarka #element:hover{
+	background: white;
+	border-color: black;
+}
+
+#description{
+	font: small-caps 10px Verdana, sans-serif;
+	float: left;
+	border-style: dotted;	
+	border-width: 1px;
+	border-color: black;
+	padding: 0px;
+	margin: 0px;
+	width: 500px;
+}
+
+#description td{
+	padding: 0px;
+	border:1px;
+	color: black;
+	font-size:12px;
+}
+
+#info{
+	clear:right;
+	float: right;
+	border-style: dotted;	
+	border-width: 1px;
+	border-color: black;
+	width: 500px;
+}
+
+#vieww{
+	float: right;
+	width: 300px;
+	height: 50px;
+}
+
+#vieww a{
+	background:black;
+	color:white;
+	font-size: 14px;
+	text-decoration: none;
+}
+
+#vieww a:hover{
+	color:yellow;
+	border-style: dotted;	
+	border-width: 1px;
+	border-color: white;
+}
+
+#formularz{
+	width: 500px;
+	font-size: 16px;
+	border-style: dotted;	
+	border-width: 1px;
+	border-color: white;
+}
+
+span.purple{
+	color:purple;
+	font-size: 20px;
+}
+
+span.green{
+	color:green;
+	font-size: 20px;
+}
+
